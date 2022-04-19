@@ -1,0 +1,50 @@
+/* fond du loader */
+
+.loader-container{
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  opacity: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: disappear 3s forwards;
+  z-index: 1;
+}
+
+.loader{
+  display: block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-top-color: #9356DC;
+  animation: spin 7s linear infinite;
+  
+  &::before, &::after{
+    content:"";
+    position: absolute;
+    border-radius: 50%;
+    border: 7px solid transparent;
+  }
+
+  &::before{
+    top:10px;
+    left: 10px;
+    right:10px;
+    bottom: 10px;
+    border-top-color: #FF79DA;
+    animation: spin 5s linear infinite;
+  }
+  
+  &::after{
+    top: 25px;
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+    border-top-color:#99E2D0;
+    animation: spin 3s linear infinite;
+  }
+}

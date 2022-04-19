@@ -1,0 +1,45 @@
+/* fond du loader */
+@keyframes disappear{
+  0%{
+    transform: scale(2);
+  }
+  50%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(0);
+  }
+}
+/* typo du loader avec effet blur */
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+/* rotation du check menu */
+@keyframes rotate_circle {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+/* animation d'apparition progressive des vignettes menu */
+@keyframes progress {
+  0% {
+      opacity: 0;
+      transform: translate(0);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
