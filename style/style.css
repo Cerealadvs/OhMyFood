@@ -170,8 +170,8 @@
 .button_like__heart--full {
   background: -webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
   background: linear-gradient(to right bottom, #FF79DA, #9356DC);
-  /* background-clip: text; */
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   opacity: 0;
   -webkit-transition: opacity 800ms;
