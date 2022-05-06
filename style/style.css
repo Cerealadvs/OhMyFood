@@ -362,7 +362,6 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 1800px;
 }
 
 a {
@@ -761,7 +760,6 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 1800px;
 }
 
 /* supprime les effets des élements déja cliqués */
