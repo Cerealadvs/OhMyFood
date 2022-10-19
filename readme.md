@@ -1,18 +1,18 @@
-Dynamisez une page web avec des animations CSS:
+**Dynamisez une page web avec des animations CSS:**
 
-Compétences évaluées:
+_Compétences évaluées:_
 
-[x] Mettre en œuvre des effets CSS graphiques avancés
+- [x] Mettre en œuvre des effets CSS graphiques avancés
 
-[x] Assurer la cohérence graphique d'un site web
+- [x] Assurer la cohérence graphique d'un site web
 
-[x] Mettre en place son environnement Front-End
+- [x] Mettre en place son environnement Front-End
 
-[x] Mettre en place une structure de navigation pour un site web
+- [x] Mettre en place une structure de navigation pour un site web
 
-[x] Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
+- [x] Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
 
-Scénario:
+_Scénario:_
 
 Vous venez d’être recruté chez Ohmyfood!, en tant que développeur junior. Félicitations !
 
